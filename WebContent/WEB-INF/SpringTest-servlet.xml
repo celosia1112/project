@@ -15,7 +15,12 @@
  
  	<!-- Getting the context pacakage the controllers and codes are located. -->
 	<context:component-scan base-package="com.hcc.advweb" />
- 
+ 	
+ 	<!--  Telling the database properties username/password etc has to be read from this properties 
+ 	<context:property-placeholder location="classpath:database.properties"/>
+ 	-->
+ 	
+ 	<!--  This is to mention that this is the annotation driven -->
  	<mvc:annotation-driven/>
  	
  	<!--  View Resolver. There are other view resolver, here we mention what we are using -->
@@ -25,5 +30,9 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 	
+
+	
+
+
 	
 </beans>

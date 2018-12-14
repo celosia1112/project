@@ -9,7 +9,7 @@
 <body>
 
 	
-	<form method="POST">
+	<form action="getstudent" method="POST">
 		Please Enter your Student ID: <br/>
 		<input type="text" name="studentID" size="50">
 		
